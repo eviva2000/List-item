@@ -1,0 +1,22 @@
+.cart-row:last-child {
+  border-bottom: 1px solid black;
+}
+
+.cart-row:last-child .cart-column {
+  border: none;
+}
+.cart-row {
+  display: flex;
+  padding-bottom: 1em;
+}
+.container1 {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 1.5em;
+}
+.cart-item,
+.cart-price,
+.cart-item-title,
+.cart-item-price {
+  padding-right: 1em;
+}
